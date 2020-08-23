@@ -122,14 +122,14 @@ What is the output?
 What is the problem (if any) and what needs to change to fix it?
 
 ## Expressions: 0.5 points, 30 minutes
-For each expression below, write the expression in plain english,
+For each expression below, write the result and describe the expression in plain english,
 for example:
 
 ```cpp
 double x = 2 * (2+3);
 ```
 
-*Add 2 and 3 and then multiply the result by 2.
+`x = 10`. *Add 2 and 3 and then multiply the result by 2.
 Assign the result to x.*
 
 If an operator appears unfamiliar to you, refer to
