@@ -59,7 +59,7 @@ and return the result.
 
 Do not use any standard library functions to compute the sum.
 
-If the array has no elements, then return an empty vector.
+If the array provided has no elements, then return 0.
 
 ### 4. Function mean
 Create a function with the following signature:
@@ -68,8 +68,6 @@ Create a function with the following signature:
 double mean(int argc, const char* argv[]);
 ```
 
-Implement `mean`.
-Use `make_vector` to initialize a new vector.
 Compute the average of all the values in the vector
 and return the result.
 
@@ -77,7 +75,7 @@ Consider calling `add` as part of your `mean` implementation.
 
 Do not use any standard library functions to compute the mean.
 
-If the array has no elements, then return an empty vector.
+If the array provided has no elements, then return 0.
 
 ### 5. Function odd
 Create a function with the following signature:
@@ -105,7 +103,6 @@ but in reverse order.
 If the array has no elements, then return an empty vector.
 
 Do not use any standard library functions to reverse the data.
-
 
 ## Turnitin
 Check your progress by running `make test` or `ctest -V`.
