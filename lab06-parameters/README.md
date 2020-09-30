@@ -49,7 +49,7 @@ from the two parameters `m` and `n`.
 
 When `m` > `n` > `0`, the following:
 
-  ![a = m^2 + n^2](https://latex.codecogs.com/svg.latex?a&space;=&space;m^{2}&space;-&space;n^{2})
+  ![a = m^2 - n^2](https://latex.codecogs.com/svg.latex?a&space;=&space;m^{2}&space;-&space;n^{2})
 
   ![b = 2mn](https://latex.codecogs.com/svg.latex?b%20%3D%202mn)
 
