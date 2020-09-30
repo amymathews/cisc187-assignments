@@ -17,6 +17,9 @@ Implement the following:
 ### 1. Create files
 Create the files `list.h` and `list.cpp`.
 
+Create the file `main.cpp`, 
+even though implementing `main` is an optional step.
+
 ### 2. struct `list`
 Define a struct `list` in file `list.h`.
 
@@ -27,9 +30,9 @@ struct list {
 };
 ```
 
-This struct does reside in namespace mesa.
+**Note:** this struct does **not** reside in namespace mesa.
 
-Note the default assignment of the struct members.
+Also notice the default assignment of the struct members.
 This is a C++11 feature.
 
 
