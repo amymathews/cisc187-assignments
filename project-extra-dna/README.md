@@ -29,9 +29,9 @@ It is mandatory that the sequence and fragment list classes remains application 
 The program must support the following command-line arguments:
 
 ```
-  Usage: sequencer [-h|?] [-m #] [-l log_level] -f <file name>
+  Usage: sequencer [-h] [-m #] [-l log_level] -f <file name>
   Options:
-    -h|? Show this text
+    -h   Show this text and exit. Optional.
 
     -m   Optional. Max amount of space allocated for sequence fragments.
          The default is 8
@@ -78,7 +78,6 @@ Each sequence contains at most 4 unique letters:
 |  C  |  C  |
 |  G  |  G  |
 |  T  |  U  |
-
 
 ## Command API
 The commands used in the input file are described in the following subsections.
@@ -145,17 +144,18 @@ Transcription converts a **DNA** sequence into an **RNA** sequence.
 
 To transcribe a sequence from **DNA** to **RNA**:
 
-1. Change its type field to **RNA**, 
-2. Convert any occurrences of **T** to **U**, 
-3. Complement all the letters in the sequence using the table below, and 
-4. Reverse the sequence. 
+1. Change its type field to **RNA**,  
+2. Complement all the letters in the sequence using the table below, and 
+3. Reverse the sequence. 
 
 **DNA to RNA Complements Table**
 
-| DNA |      | RNA |
-| --- | ---- | --- |
-|  A  | <--> |  U  |
-|  C  | <--> |  G  |
+| DNA |     | RNA |
+| --- | --- | --- |
+|  A  | --> |  T  |
+|  C  | --> |  G  |
+|  G  | --> |  C  |
+|  T  | --> |  U  |
 
 
 If an attempt is made to transcribe RNA to DNA, then print a suitable message
