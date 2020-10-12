@@ -29,7 +29,7 @@ All library member records must contain:
 
 - Name
 - Member id
-- Books currerntly checked out with due dates
+- Items currerntly checked out with due dates
 - Fees owed
 
 Implement one or more classes to manage the library collection.
