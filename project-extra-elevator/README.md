@@ -21,14 +21,14 @@ Create a default scheduler that satisfies the specification outlined in the
 
 To reduce the scope of this assignment, you may assume that:
 
-- Every elevator services every floor of the building (there are no express elevators);
-- Floors are numbered `1 .. n` - there are no special floors.
+- Every elevator services every floor of the building (there are no express elevators)
+- Floors are numbered `1 .. n` - there are no special floors
 - Passengers are mostly ignored, we are measuring elevator travel
 
   - The sim keeps track of the number of passengers in a car, but
     assume passengers move instantly, have no mass, and
     an infinite number may fit in a car.
-
+    
 - Acceleration can be ignored
 - The system runs forever
 
@@ -45,11 +45,11 @@ will pick up / drop off any passengers that happen to have a destination floor t
 
 For example, suppose:
 
-	- There are two elevators and 10 floors.
-	- A stationary elevator (elevator 1) on floor 5 has a home of floor 5
-	- A moving elevator (elevator 2) is on floor 3 delivering its final passenger to floor 2.
-    This elevator has a home floor of 8.
-	- A new call request comes in, with an origin of floor 7, and a destination of floor 9.
+- There are two elevators and 10 floors.
+- A stationary elevator (elevator 1) on floor 5 has a home of floor 5
+- A moving elevator (elevator 2) is on floor 3 delivering its final passenger to floor 2.
+  This elevator has a home floor of 8.
+- A new call request comes in, with an origin of floor 7, and a destination of floor 9.
 
 If we assigned this new request to elevator 1,
 it would take 8 seconds to service the request and return home. 
