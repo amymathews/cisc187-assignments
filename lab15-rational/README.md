@@ -40,14 +40,16 @@ parts of a rational.
 Create a two argument constructor.  
 Make the denominator default value = 1.
 
-The constructor should enforce the constraint that an 
+The class also should enforce the constraint that an 
 Integral type is required.  
-Consider using
+Consider putting
 
 ```cpp
 static_assert(std::is_integral<T>::value,
               "Integral types required.");
 ```
+
+Near the top of your class.
 
 The `std::is_integral` class is defined in header
 `<type_traits>`.
