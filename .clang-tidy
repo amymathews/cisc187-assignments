@@ -2,6 +2,5 @@
 #Checks:          '*,-fuchsia-*,-google-*,-zircon-*,-abseil-*,-modernize-use-trailing-return-type,-llvm-*'
 Checks:          'bugprone-*,clang-analyzer-*,cert-*,cppcoreguidelines-*,modernize-*,performance-*,readability-*,-cppcoreguidelines-pro-bounds-pointer-arithmetic,-cppcoreguidelines-owning-memory'
 WarningsAsErrors: ''
-AllowSoleDefaultDtor: 1
 HeaderFilterRegex: '.*'
 FormatStyle:     none
