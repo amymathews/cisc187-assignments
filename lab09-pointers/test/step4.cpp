@@ -47,7 +47,7 @@ SCENARIO( "Compute the invariants of count") {
 
   GIVEN( "a C string with only null" ) {
     WHEN( "nothing is provided" ) {
-        char empty[6];
+        char empty[1] = {0};
       THEN("the count should be zero" ) {
         auto actual = mesa::count(empty, 'A');
         REQUIRE(actual == 0);
