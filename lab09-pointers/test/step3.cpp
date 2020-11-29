@@ -20,6 +20,7 @@ static void do_check(string orig) {
       REQUIRE_MESSAGE (actual[i] == expected[i], 
               "'" << actual[i] << "' received, '" << expected[i] << "' expected");
     }
+    delete[] actual;
   }
 }
 
