@@ -15,3 +15,6 @@ add_library(project_warnings INTERFACE)
 
 set_project_warnings(project_warnings)
 
+# Link to this placeholder to promote all warning to errors (compiler_warnings.cmake)
+add_library(project_errors INTERFACE)
+set_project_errors(project_errors)

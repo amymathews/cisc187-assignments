@@ -34,4 +34,9 @@ function(make_test name)
   set_tests_properties(${name} PROPERTIES TIMEOUT 3)
 endfunction()
 
+function(make_test_strict name)
 
+  make_test(${name} ${ARGN})
+  target_link_libraries(${name} project_errors)
+
+endfunction()

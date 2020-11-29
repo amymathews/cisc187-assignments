@@ -48,6 +48,9 @@ double perimeter(const T length, int16_t num_sides);
 
 Remember to check for the invariants of perimeter.
 
+**Note:** The test for this step must compile without warning,
+or the test will fail to compile.
+
 The general formula for perimeter of a regular polygon:
 
   ![p = sn](https://latex.codecogs.com/svg.latex?p%20%3D%20sn)
@@ -71,6 +74,9 @@ Create a template to compute the apothem of a regular polygon.
 template <class T, int16_t num_sides>
 double apothem(const T length) 
 ```
+
+**Note:** The test for this step must compile without warning,
+or the test will fail to compile.
 
 A general formula for the apothem of a regular polygon:
 
@@ -97,6 +103,9 @@ Use the perimeter and apothem templates written in the previous steps to
 compute the area.
 
 This function should compute the area of a regular polygon with an arbitrary number of sides.
+
+**Note:** The test for this step must compile without warning,
+or the test will fail to compile.
 
 Once you have the apothem and perimeter, the area is:
 

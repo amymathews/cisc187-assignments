@@ -1,5 +1,4 @@
-# from here:
-#
+# from here: 
 # https://github.com/lefticus/cppbestpractices/blob/master/02-Use_the_Tools_Avai lable.md
 
 function(set_project_warnings project_name)
@@ -71,3 +70,17 @@ function(set_project_warnings project_name)
 
 endfunction()
 
+function(set_project_errors project_name)
+  if(MSVC)
+    set(PROJECT_ERRORS "/WX")
+  elseif(CMAKE_CXX_COMPILER_ID MATCHES ".*Clang")
+    set(PROJECT_ERRORS "-Werror")
+  elseif(CMAKE_CXX_COMPILER_ID STREQUAL "GNU")
+    set(PROJECT_ERRORS "-Werror")
+  else()
+    message(AUTHOR_WARNING "Errors not promoted for '${CMAKE_CXX_COMPILER_ID}' compiler.")
+  endif()
+
+  target_compile_options(${project_name} INTERFACE ${PROJECT_ERRORS})
+
+endfunction()
