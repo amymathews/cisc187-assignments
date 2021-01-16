@@ -41,7 +41,7 @@ describe what [this function](src/change.cpp) is attempting to do:
    What do you think the problem is?
 
 5. Run the example program in the 
-   [sign and magnitude](https://daveparillo.github.io/cisc187-reader/beginnings/types.rst)
+   [sign and magnitude](ttps://daveparillo.github.io/cisc187-reader/beginnings/types.html#sign-and-magnitude)
    section of course reader.
 
    Compare the exponent and mantissa for the different values. See any patterns?
