@@ -1,12 +1,9 @@
 cmake_minimum_required(VERSION 3.12)
 
 project(lab10 VERSION 1.0.0 LANGUAGES CXX)
-list(APPEND CMAKE_MODULE_PATH "${CMAKE_CURRENT_LIST_DIR}/../../cmake")
-include (prevent_source_builds)
-include (clang_tidy)
 
 file(COPY class.txt 
-  DESTINATION ${CMAKE_CURRENT_BINARY_DIR})
+     DESTINATION ${CMAKE_CURRENT_BINARY_DIR})
 
 add_library(${PROJECT_NAME} 
   average.h average.cpp
