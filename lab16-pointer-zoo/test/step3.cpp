@@ -6,7 +6,7 @@
 #include <vector>
 
 #include <doctest.h>
-#include <lab18.h>
+#include <zoo.h>
 
 SCENARIO( "Play with pets") {
   GIVEN( "an vector of Pet*" ) {

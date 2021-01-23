@@ -6,7 +6,7 @@
 #include <vector>
 
 #include <doctest.h>
-#include <lab18.h>
+#include <zoo.h>
 
 SCENARIO( "treat animals") {
   GIVEN( "an vector of unique_ptr<Animal>" ) {

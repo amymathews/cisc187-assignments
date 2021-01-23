@@ -28,7 +28,7 @@ Do not edit the creatures in the zoo.
 You are responsible for completing:
 
 ```
-lab18.cpp
+zoo.cpp
 main.cpp
 ```
 
@@ -39,7 +39,7 @@ This lab has several files.
 Just understanding all of them takes some work (but not too much).
 All the files you need already exist,
 but some of them are incomplete.
-The files `lab18.cpp` and `main.cpp` need some work.
+The files `zoo.cpp` and `main.cpp` need some work.
 You should take a few moments to understand 
 what the other classes provided do.
 

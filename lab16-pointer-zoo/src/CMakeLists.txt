@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.12)
 
-project(lab18 VERSION 1.0.0 LANGUAGES CXX)
+project(zoo VERSION 1.0.0 LANGUAGES CXX)
 
 add_library(${PROJECT_NAME} 
   Animal.h
@@ -13,7 +13,7 @@ add_library(${PROJECT_NAME}
   RoboDog.cpp RoboDog.h
   Robot.h
   Wolf.cpp Wolf.h
-  lab18.cpp lab18.h
+  zoo.cpp zoo.h
 )
 add_executable(zoo main.cpp)
 

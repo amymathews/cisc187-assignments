@@ -4,7 +4,7 @@
 #include <vector>
 
 #include <doctest.h>
-#include <lab18.h>
+#include <zoo.h>
 
 SCENARIO( "Test make_pets") {
   WHEN( "a make_pets is called" ) {
