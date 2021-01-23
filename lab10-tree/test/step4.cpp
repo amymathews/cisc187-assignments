@@ -2,7 +2,7 @@
 
 #include <string>
 #include <doctest.h>
-#include "../src/lab11.h"
+#include "../src/tree.h"
 
 SCENARIO( "Test mesa::make_tree(T, tree<T>* tree<T>*)") {
 

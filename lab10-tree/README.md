@@ -7,7 +7,7 @@ a *binary tree*.
 ## Steps
 
 ### 1. Create files
-Create files named, `lab11.cpp`, `main.cpp`, and `lab11.h`
+Create files named, `tree.cpp`, `main.cpp`, and `tree.h`
 in the `src` directory.
 
 ### 2. struct `tree`
@@ -78,4 +78,4 @@ for example, `ctest -R step2`.
 
 ## Reflection
 When you are done, take a moment to 
-[rate this lab](https://forms.gle/ASDJ9brgyqP7RyJy6).
+[rate this lab](https://forms.gle/fEXfFVbVCF1LtETYA).

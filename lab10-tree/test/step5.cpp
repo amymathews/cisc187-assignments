@@ -3,7 +3,7 @@
 #include <string>
 #include <sstream>
 #include <doctest.h>
-#include "../src/lab11.h"
+#include "../src/tree.h"
 
 SCENARIO( "Test stream extraction for mesa::tree") {
   std::stringstream actual;
