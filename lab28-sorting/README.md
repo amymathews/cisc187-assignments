@@ -35,7 +35,8 @@ The sorting algorithms under study this week include (in alphabetical order):
 - Selection Sort, and
 - Shell Sort.
 
-| **Note**                                   |
+| **Note** |
+| :--------: |
 | Read all of the following before beginning |
 
 ## Steps
