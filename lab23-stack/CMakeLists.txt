@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.12)
 
-project(lab24 VERSION 1.0.0 LANGUAGES CXX)
+project(lab23 VERSION 1.0.0 LANGUAGES CXX)
 include ("../common.cmake")
 
 add_subdirectory(test)
