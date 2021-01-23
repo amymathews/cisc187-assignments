@@ -108,7 +108,3 @@ for example, `ctest -R step2`.
 - Add your new and modified files: `git add . . . `
 - Save your changes: `git commit . . . `
 - Submit your work for grading: `git push`
-
-## Reflection
-When you are done, take a moment to 
-[rate this lab](https://forms.gle/fEXfFVbVCF1LtETYA).
